@@ -66,7 +66,8 @@ Pour exécuter le pipeline, utilisez la commande suivante :
 Si vous souhaitez exécuter les tests unitaires avant d'exécuter le pipeline, vous pouvez le faire en ajoutant test à la commande, comme suit :
 
 ```python -m src.__main__ test```
-
+3. Resultats : graph
+![Workflow Diagram](./Resultats-graph.png)
 # Add hoc Queries 
 J'ai choisie de créer deux fonctions en SQL, intégrer dans le code pour faire ce les deux ad-hoc queries. Sur un envirenement GCP ça devrait être beaucoup plus simple une fois la table est déjà générée sur BQ. 
 1. journal_with_most_drugs : Extraire le nom du journal qui mentionne le plus de médicaments différents.
