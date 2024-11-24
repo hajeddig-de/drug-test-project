@@ -49,9 +49,9 @@ project/
 │       ├── __init__.py
 │       ├── config.py
 │       └── logger.py
-
+```
 # Installez les dépendances du projet
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # Exécuter le Pipeline
 
@@ -60,14 +60,14 @@ Le pipeline peut être exécuté de différentes manières :
 1. Exécution directe avec Python
 Pour exécuter le pipeline, utilisez la commande suivante :
 
-python -m src.__main__
+```python -m src.__main__```
 
 2. Lancer les Tests Unitaires
 Si vous souhaitez exécuter les tests unitaires avant d'exécuter le pipeline, vous pouvez le faire en ajoutant test à la commande, comme suit :
 
-python -m src.__main__ test
+```python -m src.__main__ test```
 
-# Add how Queries 
+# Add hoc Queries 
 J'ai choisie de créer deux fonctions en SQL, intégrer dans le code pour faire ce les deux ad-hoc queries. Sur un envirenement GCP ça devrait être beaucoup plus simple une fois la table est déjà générée sur BQ. 
 1. journal_with_most_drugs : Extraire le nom du journal qui mentionne le plus de médicaments différents.
 2. drugs_in_same_journals : Pour un médicament donné, trouver l’ensemble des médicaments mentionnés par les mêmes journaux référencés par les publications scientifiques (PubMed) mais non les tests cliniques (Clinical Trials). Ici, j'ai pris l'exemple de médicament "betamethasone"
@@ -85,7 +85,14 @@ Sur le dossier sql, j'ai mis deux query pour les test SQL, une autre façon de f
 4. Stockage dans BigQuery : Après traitement, les données sont envoyées dans BigQuery sous forme de tables pour une analyse future.
 Analyse et Visualisation : Les utilisateurs peuvent analyser les données dans BigQuery via des requêtes SQL et générer des rapports.
 
-[API / Téléchargement dans GCS] --> [GCS Bucket] --> [Eventarc] --> [Cloud Run Job] --> [BigQuery] --> [Analyse & Visualisation]
+## Workflow
 
-
+```mermaid
+graph TD;
+    A([API / Téléchargement dans GCS]) --> B([GCS Bucket]);
+    B --> C([Eventarc]);
+    C --> D([Cloud Run Job]);
+    D --> E([BigQuery]);
+    E --> F([Analyse & Visualisation]);
+```
 PS: Au niveau github, on peut ajouter un github action qui permetra de declancher le job à chaque fois qu'on commit sur ce dossier de l'ingestion. 
