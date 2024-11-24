@@ -1,0 +1,14 @@
+{
+	"source": {
+		"path": "data",
+		"drug_file": "drugs.csv",
+		"clinical_trial_file": "clinical_trials.csv",
+		"pubmed_csv_file": "pubmed.csv",
+		"pubmed_json_file": "pubmed.json"
+	},
+	"output": {
+		"path": "output",
+		"drug_graph": "graph.json",
+		"top_journals": "journals.json"
+	}
+}

@@ -1,0 +1,151 @@
+[
+    {
+        "drug": "tetracycline",
+        "mentions": [
+            {
+                "journal": "Journal of food protection",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Tetracycline Resistance Patterns of Lactobacillus buchneri Group Strains."
+            },
+            {
+                "journal": "American journal of veterinary research",
+                "date": "02/01/2020",
+                "type": "pubmed",
+                "title": "Appositional Tetracycline bone formation rates in the Beagle."
+            },
+            {
+                "journal": "Psychopharmacology",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+            }
+        ]
+    },
+    {
+        "drug": "epinephrine",
+        "mentions": [
+            {
+                "journal": "The journal of allergy and clinical immunology. In practice",
+                "date": "01/02/2020",
+                "type": "pubmed",
+                "title": "The High Cost of Epinephrine Autoinjectors and Possible Alternatives."
+            },
+            {
+                "journal": "The journal of allergy and clinical immunology. In practice",
+                "date": "01/03/2020",
+                "type": "pubmed",
+                "title": "Time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained ROSC after traumatic out-of-hospital cardiac arrest."
+            },
+            {
+                "journal": "Journal of emergency nursing\\xc3\\x28",
+                "date": "04/27/2020",
+                "type": "clinical",
+                "title": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy"
+            }
+        ]
+    },
+    {
+        "drug": "ethanol",
+        "mentions": [
+            {
+                "journal": "Psychopharmacology",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication."
+            }
+        ]
+    },
+    {
+        "drug": "diphenhydramine",
+        "mentions": [
+            {
+                "journal": "Journal of emergency nursing",
+                "date": "01/01/2019",
+                "type": "pubmed",
+                "title": "A 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations"
+            },
+            {
+                "journal": "Journal of emergency nursing",
+                "date": "01/01/2019",
+                "type": "pubmed",
+                "title": "An evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy."
+            },
+            {
+                "journal": "The Journal of pediatrics",
+                "date": "02/01/2019",
+                "type": "pubmed",
+                "title": "Diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning."
+            },
+            {
+                "journal": "Journal of emergency nursing",
+                "date": "01/01/2020",
+                "type": "clinical",
+                "title": "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids"
+            },
+            {
+                "journal": "Journal of emergency nursing",
+                "date": "01/01/2020",
+                "type": "clinical",
+                "title": "Phase 2 Study IV QUZYTTIR™ (Cetirizine Hydrochloride Injection) vs V Diphenhydramine"
+            },
+            {
+                "journal": "Journal of emergency nursing",
+                "date": "01/01/2020",
+                "type": "clinical",
+                "title": "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel"
+            }
+        ]
+    },
+    {
+        "drug": "atropine",
+        "mentions": [
+            {
+                "journal": "The journal of maternal-fetal & neonatal medicine",
+                "date": "01/03/2020",
+                "type": "pubmed",
+                "title": "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle."
+            }
+        ]
+    },
+    {
+        "drug": "betamethasone",
+        "mentions": [
+            {
+                "journal": "The journal of maternal-fetal & neonatal medicine",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Clinical implications of umbilical artery Doppler changes after betamethasone administration"
+            },
+            {
+                "journal": "Journal of back and musculoskeletal rehabilitation",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Effects of Topical Application of Betamethasone on Imiquimod-induced Psoriasis-like Skin Inflammation in Mice."
+            },
+            {
+                "journal": "The journal of maternal-fetal & neonatal medicine",
+                "date": "01/03/2020",
+                "type": "pubmed",
+                "title": "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle."
+            },
+            {
+                "journal": "Hôpitaux Universitaires de Genève",
+                "date": "01/01/2020",
+                "type": "clinical",
+                "title": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or \\xc3\\xb1 Laminectomy"
+            }
+        ]
+    },
+    {
+        "drug": "isoprenaline",
+        "mentions": [
+            {
+                "journal": "Journal of photochemistry and photobiology. B, Biology",
+                "date": "01/01/2020",
+                "type": "pubmed",
+                "title": "Gold nanoparticles synthesized from Euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats."
+            }
+        ]
+    }
+]
