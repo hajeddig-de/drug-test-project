@@ -57,16 +57,26 @@ project/
 
 Le pipeline peut être exécuté  à partir de **project** de différentes manières :
 
-1. Exécution directe avec Python
+1. Exécution directe avec poetry Python
 
 Pour exécuter le pipeline, utilisez la commande suivante :
 
-```python -m src.__main__```
+```poetry install```
+
+et après lancez le pipeline avec poetry run :
+
+```poetry run python -m src.__main__```
 
 2. Lancer les Tests Unitaires
 Si vous souhaitez exécuter les tests unitaires avant d'exécuter le pipeline pour assurer que quelques fonctionalités se déploient correctement, vous pouvez le faire en ajoutant test à la commande, comme suit :
 
 ```python -m src.__main__ test```
+Ou bien 
+
+```poetry run pytest```
+
+
+```poetry run python -m src.__main__ test```
 
 3. Resultats : graph
 ![Workflow Diagram](./Resultats-graph.png)
